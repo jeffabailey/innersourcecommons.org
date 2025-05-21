@@ -1,0 +1,63 @@
+media:
+  - name: images
+    label: Images
+    input: static/images
+    output: /images
+    categories: [ image ]
+  - name: documents
+    label: Documents
+    input: static/documents
+    output: /documents
+    categories: [ document ]
+
+content:
+  - name: pages
+    label: Pages
+    type: collection
+    path: content
+    format: yaml-frontmatter
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: date
+        label: Date
+        type: date
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
+      - name: body
+        label: Content
+        type: rich-text
+    view:
+      fields: [ title, date, draft ]
+      primary: title
+      sort: [ date, title ]
+      default:
+        sort: date
+        order: desc
+    subfolders: true
+
+  - name: config
+    label: Site Configuration
+    type: file
+    path: config/_default/config.yaml
+    format: yaml
+    fields:
+      - name: baseURL
+        label: Base URL
+        type: string
+      - name: title
+        label: Site Title
+        type: string
+      - name: languageCode
+        label: Language Code
+        type: string
+      - name: defaultContentLanguage
+        label: Default Content Language
+        type: string 
