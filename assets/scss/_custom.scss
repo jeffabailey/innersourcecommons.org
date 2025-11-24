@@ -17,7 +17,8 @@ a:hover, .content a:hover {
 .time{ width:12% }
 
 .author{ width:25% }
-
+.w-70{ width:70% }
+.UTC{ text-align: right;}
 .notice {
     padding: 8px 0;
     background: inherit;
@@ -607,7 +608,7 @@ button.svelte-la9dd4:disabled {
 }
 
 .navigation {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   right: 0;
@@ -617,7 +618,7 @@ button.svelte-la9dd4:disabled {
 }
 
 body {
-  padding-top: 48px;
+  // padding-top: 48px;
 }
 
 body.has-notice {

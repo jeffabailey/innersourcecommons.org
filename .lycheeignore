@@ -5,13 +5,20 @@ linkedin\.com/.*
 marriott\.com/.*
 sheratonlisle\.com/.*
 youtu\.be/.*
-
+https://www.gartner.com/en/newsroom/press-releases/gartner-identifies-the-top-strategic-technology-trends-in-software-engineering-trends-for-2023
+https://www.gartner.com/en/newsroom/press-releases/2023-11-28-gartner-hype-cycle-shows-ai-practices-and-platform-engineering-will-reach-mainstream-adoption-in-software-engineering-in-two-to-five-years
 https://support.sap.com/en/product/globalization.html
 https://medium.com/adobetech/open-development-inner-source-and-open-source-46c2ba174be6
 silona.org
 https://www.chathamhouse.org/about-us/chatham-house-rule
 https://www.safaribooksonline.com/learning-paths
 https://www.tripadvisor.com/Restaurants-g36422-zfp16-Naperville_DuPage_County_Illinois.html
+https://srcgr.ph/innersource-commons
+
+# Expired SSL certificates. To be removed once fixed
+https://www.make.dev/
+https://promyze.com/innersource-understand-in-5-minutes/
+https://promyze.com/contact
 
 # added this due to maintenance on wikimedia. To be removed later
 https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/JimJag-with-Gumby.jpg/220px-JimJag-with-Gumby.jpg
